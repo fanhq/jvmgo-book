@@ -6,6 +6,8 @@ import "jvmgo/ch02/classpath"
 
 func main() {
 	cmd := parseCmd()
+	cmd.class = "java.lang.Object"
+	cmd.XjreOption = "C:\\Program Files\\Java\\jdk1.8.0_181\\jre"
 
 	if cmd.versionFlag {
 		fmt.Println("version 0.0.1")
