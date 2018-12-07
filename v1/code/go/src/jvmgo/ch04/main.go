@@ -7,7 +7,8 @@ import "jvmgo/ch04/rtda"
 
 func main() {
 	cmd := parseCmd()
-
+	cmd.class = "java.lang.Object"
+	cmd.XjreOption = "C:\\Program Files\\Java\\jdk1.8.0_181\\jre"
 	if cmd.versionFlag {
 		fmt.Println("version 0.0.1")
 	} else if cmd.helpFlag || cmd.class == "" {
