@@ -10,8 +10,8 @@ type Frame struct {
 
 func NewFrame(maxLocals, maxStack uint) *Frame {
 	return &Frame{
-		localVars:    newLocalVars(maxLocals),
-		operandStack: newOperandStack(maxStack),
+		localVars:    newLocalVars(maxLocals),   //局部变量
+		operandStack: newOperandStack(maxStack), //操作数栈
 	}
 }
 
