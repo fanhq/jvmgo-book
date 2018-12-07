@@ -9,3 +9,4 @@ out/
 debug
 github.com/
 golang.org/
+v1/code/go/src/golang.org/x/tools
