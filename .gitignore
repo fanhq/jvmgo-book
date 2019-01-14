@@ -10,3 +10,5 @@ debug
 github.com/
 golang.org/
 v1/code/go/src/golang.org/x/tools
+v1/code/java/example/.project
+v1/code/java/example/.settings/org.eclipse.buildship.core.prefs
