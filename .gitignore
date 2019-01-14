@@ -13,4 +13,4 @@ v1/code/go/src/golang.org/x/tools
 .project
 org.eclipse.buildship.core.prefs
 .classpath
-
+*.class
