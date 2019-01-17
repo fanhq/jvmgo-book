@@ -7,7 +7,7 @@ import "jvmgo/ch05/classpath"
 
 func main() {
 	cmd := parseCmd()
-	cmd.class = "GaussTest"
+	cmd.class = "GaussTest"//自行编译class到当前路径下
 	cmd.XjreOption = "C:\\Program Files\\Java\\jdk1.8.0_181\\jre"
 	if cmd.versionFlag {
 		fmt.Println("version 0.0.1")
