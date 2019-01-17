@@ -6,7 +6,7 @@ import (
 	"github.com/cm-heclouds/GoSDK/oneNet"
 )
 
-func main1() {
+func main() {
 	on := oneNet.NewOneNet("2MGfqkx8yTuLA0n9lFBMZLNgGQwA")
 	datapoints := make(map[string]interface{})
 	datapoints["2014-09-01 15:11:01"] = 15
